@@ -30,9 +30,9 @@ The default configuration is as follows:
     },
 
     "template": {
-        "title": "COVID-19 UK Dashboard",
         "logo": "logo.webp",
-        "favicon": "favicon.webp"
+        "favicon": "download.png",
+        "news_article_count": 6
     },
 
     "location": "Exeter",
@@ -40,14 +40,12 @@ The default configuration is as follows:
     "nation_location": "England",
 
     "search_terms": "Covid COVID-19 coronavirus",
-    "language_code": "en",
 
-    "news_api_key": "news-api-key",
+    "news_api_key": "bb986171d22b455294ed54bfa3433080",
 
-    "resource_path": "./resources/",
-    "static_path": "./static/",
+    "resource_path": "Covid19-Dashboard\\",
 
-    "inital_national_data_filename": "nation_2021-10-28.csv"
+    "inital_national_data_filename": "nationwork.csv"
 }
 ```
 
