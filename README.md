@@ -5,19 +5,12 @@ Automatic covid dashboard for displaying accurate, up to date covid data and new
 
  - [Features](#features)
  - [Config File](#config_file)
- - [Testing](#testing)
  - [How To Use Application](#How_To_Use_Application)
  - [Disclaimer](#Disclaimer)
 
 
 ## Features
-
-- Display up-to-date COVID-19 statistics
-  - Display both local and national articles
-- Display recent news articles about the configured search terms
-  - Remove articles from being displayed, even after new ones are fetched
-- Schedule one-time and repeating updates to fetch new statistics and news articles
-- All configurable
+ This Dashboard contains upto date covid statistics and news articles with the ablitiy to schedule updates and more.
 
 ## Config File
 
@@ -59,12 +52,7 @@ The default configuration is as follows:
 ```
 
 For the code to work please chage the required parameters to fit your need.
-## Testing
 
-This project uses pytest for its testing.  
-All tests are inside the `/tests/` directory and have filenames according to the module it tests.
-e.g. `test1_logger.py` for the `logger` module.  
-  
 ### Running Tests
 
 Running the tests is a simple task.  
